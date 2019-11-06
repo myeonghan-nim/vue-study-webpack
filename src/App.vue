@@ -1,10 +1,22 @@
 <template>
-  <h1>here is root!</h1>
+  <div>
+
+    <h1>here is root!</h1>
+
+    <todo-list></todo-list>
+    <todo-list></todo-list>
+    <todo-list></todo-list>
+    
+  </div>
 </template>
 
 <script>
-export default {
+import TodoList from './components/TodoList.vue'
 
+export default {
+  components: {
+    TodoList,
+  }
 }
 </script>
 
