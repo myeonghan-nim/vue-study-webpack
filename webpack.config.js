@@ -4,7 +4,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   mode: 'development',
-  
+
   // setting for start
   entry: {
     app: path.join(__dirname, 'src', 'main.js')
@@ -15,6 +15,10 @@ module.exports = {
       {
         test: /\.vue$/,
         use: 'vue-loader'
+      },
+      {
+        test: /\.css$/,
+        use: ['vue-style-loader', 'css-loader']
       }
     ]
   },
