@@ -47,5 +47,8 @@ export default {
 </script>
 
 <style>
-
+  .todo-list {
+    display: inline-block;
+    width: 33%;
+  }
 </style>
