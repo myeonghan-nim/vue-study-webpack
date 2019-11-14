@@ -42,7 +42,7 @@ export default {
         return todo.id !== todoID
       })
     }
-  },
+  }
 }
 </script>
 
