@@ -1,12 +1,12 @@
 <template>
   <div>
 
-    <h1>here is root!</h1>
+    <h1>Root!</h1>
 
     <!-- 3. use loaded component -->
+    <todo-list category="Career"></todo-list>
     <todo-list category="SSAFY"></todo-list>
     <TodoList category="Shopping"/>
-    <todo-list category="Career"></todo-list>
 
   </div>
 </template>
