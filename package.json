@@ -16,7 +16,7 @@
     "ini": "^2.0.0",
     "kind-of": "^6.0.3",
     "minimist": "^1.2.6",
-    "postcss": "^8.4.5",
+    "postcss": "^8.4.31",
     "serialize-javascript": "^6.0.0",
     "ssri": "^8.0.1",
     "vue": "^2.6.10",
